@@ -4,7 +4,7 @@ pipeline {
         stage("Hello") {
             steps {
                 sleep 300 // 5 minutes
-                echo 'Hello World'
+                echo 'this is a test branch'
             }
         }
     }
